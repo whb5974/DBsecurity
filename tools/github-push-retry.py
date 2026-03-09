@@ -10,7 +10,7 @@ import sys
 from datetime import datetime
 
 PROJECT_PATH = "/home/ghost/.openclaw/workspace/dbp-automation"
-GITHUB_TOKEN = "YOUR_GITHUB_TOKEN_HERE"
+GITHUB_TOKEN = "YOUR_GITHUB_TOKEN_HERE"  # Replace with actual token or use environment variable
 GITHUB_REPO = f"https://{GITHUB_TOKEN}@github.com/whb5974/DBsecurity.git"
 
 def check_network():
