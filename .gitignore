@@ -1,0 +1,107 @@
+# ======================
+# OpenClaw Workspace .gitignore
+# ======================
+
+# --- 日志文件 ---
+*.log
+logs/
+**/logs/*.log
+**/data/logs/*.log
+
+# --- 缓存和临时文件 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- 虚拟环境 ---
+venv/
+env/
+ENV/
+.venv
+
+# --- IDE 和编辑器 ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- 音频文件 ---
+audio/
+*.opus
+*.mp3
+*.wav
+
+# --- PDF 输出 ---
+pdf-output/
+*.pdf
+
+# --- 节点模块 ---
+node_modules/
+
+# --- 数据库 ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- 环境变量和配置 ---
+.env
+.env.local
+*.local
+config.yaml.local
+
+# --- 临时和测试文件 ---
+*.tmp
+*.bak
+*.backup
+test/
+tests/
+*_test.py
+test_*.py
+
+# --- 大型数据文件 ---
+*.zip
+*.tar.gz
+qbot.zip
+
+# --- 转移的仓库（子模块） ---
+.transferred/
+dbp-automation/
+
+# --- 投资计划数据 ---
+investment-plan/data/
+investment-plan/logs/
+investment-plan/charts/
+investment-plan/reports/
+
+# --- i-moutai 数据 ---
+i-moutai-helper/data/
+i-moutai-helper/venv/
+
+# --- Qbot 学习日志 ---
+qbot-learning-log/
+
+# --- Nmap 扫描结果 ---
+nmap-scans/
+
+# --- 量化交易数据 ---
+quant-trading/data/
